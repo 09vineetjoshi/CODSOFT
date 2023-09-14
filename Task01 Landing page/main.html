@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Landing Page</title>
+</head>
+  
+<body>
+    <nav>
+        <div class="heading">World Of Cars</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            ☰
+        </span>
+  
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+  
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Welcome To The World Of Cars</h1>
+        </div>
+        <div class="side2">
+            <img src = "./img/img.jpg"
+                width="500">
+        </div>
+    </div>
+  
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span></span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Supra
+                        </a>
+                    </div>
+                    <p>
+                        The Toyota Supra is a sports car 
+                        and grand tourer manufactured by 
+                        the Toyota Motor Corporation beginning 
+                        in 1978. The name "supra" is derived from 
+                        the Latin prefix, meaning "above", "to surpass" or "go beyond".
+                    </p>
+                </div>
+                <div class="box">
+  
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Nissan GTR
+                        </a>
+                    </div>
+                    <p>
+                        The Nissan GT-R (Japanese: 日産・GT-R, Nissan GT-R), is a sports car and grand tourer produced by Nissan, unveiled in 2007.[4][5][6] It is the successor to the Nissan Skyline GT-R, a high-performance variant of the Nissan Skyline. Although this model was the sixth-generation to bear the GT-R name, it is no longer part of the Skyline line-up.
+                    </p>
+                </div>
+  
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Ford Mustang
+                        </a>
+                    </div>
+                    <p>
+                        The Ford Mustang is a series of American automobiles manufactured by Ford. In continuous production since 1964, the Mustang is currently the longest-produced Ford car nameplate. Currently in its seventh generation, it is the fifth-best selling Ford car nameplate. The namesake of the "pony car" automobile segment, the Mustang was developed as a highly styled line of sporty coupes and convertibles derived from existing model lines, initially distinguished by "long hood, short deck" proportions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                           All India Car Dealer Association , Shalimar Bagh, Delhi - 110088
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all the Car lovers out there
+                            We welcome you to the platform where we
+                            consistently strive to offer the best 
+                            of information about cars. This platform has been 
+                            designed for every car lover wishing to 
+                            expand their knowledge, share their 
+                            knowledge.Thank you for choosing 
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="Vineet Joshi" 
+                    target="_blank">
+                    Vineet Joshi
+                </a>
+            </span> 
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+  
+</html>
